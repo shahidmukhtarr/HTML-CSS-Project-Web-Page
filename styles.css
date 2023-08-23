@@ -173,5 +173,29 @@ margin-top: -40px;
   }
 
   
-  
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .header-text {
+      font-size: 12px;
+    }
+    .custom-heading {
+      font-size: 20px;
+    }
+    .link-button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+    .contact-section h3, .contact-section h4, .contact-section h5, .contact-section h6 {
+      font-size: 16px;
+    }
+    .logo-button img {
+      width: 30px;
+      height: 30px;
+    }
+    footer {
+      font-size: 10px;
+    }
+  }
   
